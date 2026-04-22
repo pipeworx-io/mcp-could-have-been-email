@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/could-have-been-email",
-  "title": "could have ueen email",
-  "description": "could-have-been-email MCP — wraps StupidAPIs (requires X-API-Key)",
+  "title": "Could Have Been Email",
+  "description": "could-have-been-email MCP \u2014 wraps StupidAPIs (requires X-API-Key)",
   "version": "0.1.0",
   "websiteUrl": "https://pipeworx.io/packs/could-have-been-email",
   "repository": {
