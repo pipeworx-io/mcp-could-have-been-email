@@ -77,3 +77,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/could_have_been_email_analyze \
+  -H 'Content-Type: application/json' \
+  -d '{"transcript":"Team standup: John reported completion of API integration. Sarah discussed Q4 roadmap priorities. Mike raised concern about database performance. Action: John to share API docs by Friday.","duration":15,"attendee_count":5,"recurring":true}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/could_have_been_email_analyze`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
