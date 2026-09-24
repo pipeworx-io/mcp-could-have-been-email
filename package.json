@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-could-have-been-email",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "could-have-been-email MCP — wraps StupidAPIs (keyless — no credential needed)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-76dcc4bdf452e37ced6a505f7a5dc720b7c3368c8b71d9d4e72764f4aee99907",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
